@@ -848,7 +848,7 @@ param_grid = [
 
     {
         'models': [LogisticRegression(random_state=RANDOM_STATE)],
-        'models__C': [0.1, 1.0, 10.0, 100.0],
+        'models__C': [0.1, 1.0, 10.0, 100.0, 200.0, 1000.0],
          'preprocessor': [data_preprocessor, data_preprocessor_2]
     },
     {
